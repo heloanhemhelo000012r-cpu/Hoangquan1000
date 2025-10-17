@@ -34,7 +34,11 @@ MinimizeButton({
 
 -- Create a Tab
 local Tab1o = MakeTab({Name = "Script Farm"})
-
+local Tab2o = MakeTab({Name = "Hop Sever"})
+local Tab3o = MakeTab({Name = "Auto Bouty"})
+local Tab4o = MakeTab({Name = "99Day"})
+local Tab5o = MakeTab({Name = "Cuop 1 brenrot"})
+local Tab6o = MakeTab({Name = "Blenvsbrenrot"})
 -- Add a Button to Tab1o
 AddButton(Tab1o, {
     Name = "Redz Hub",
@@ -47,5 +51,53 @@ AddButton(Tab1o, {
         loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
     end
 })
-
+AddButton(Tab2o, {
+    Name = "Hop Boss",
+    Callback = function()
+repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-FREEMIUM"))()
+   end
+})
+AddButton(Tab1o, {
+    Name = "Teddy Hub",
+    Callback = function()
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TeddyHub.lua"))()
+   end
+})
+AddButton(Tab1o, {
+    Name = "Wazre Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/85e904ae1ff30824c1aa007fc7324f8f.lua"))()
+   end
+})
+AddButton(Tab1o, {
+    Name = "HNC Banana",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/heloanhemhelo000012r-cpu/-c-Hub/refs/heads/main/Hnc%20Banana%20Hub.lua%20(2).txt"))()
+   end
+})
+AddButton(Tab4o, {
+    Name = "H4X Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader2.lua", true))()
+   end
+})
+AddButton(Tab1o, {
+    Name = "Redz Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))()
+   end
+})
+AddButton(Tab1o, {
+    Name = "Sukuna Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/longdwieh/Saukura-script/refs/heads/main/sakura.lua.txt"))()
+   end
+})
+AddButton(Tab5o, {
+    Name = "Chill Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))()
+   end
 })
