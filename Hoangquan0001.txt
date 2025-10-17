@@ -273,3 +273,9 @@ AddButton(Tab3o, {
         loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ca16cb42816b395e079fa7a114352ba9.lua"))()
    end
 })
+AddButton(Tab1o, {
+    Name = "Sever Vip Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JoshzzAlteregooo/FreePrivateServer/refs/heads/main/UniversalFreePrivateServerByJoshzz"))()
+   end
+})
