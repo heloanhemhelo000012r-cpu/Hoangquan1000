@@ -101,3 +101,42 @@ AddButton(Tab5o, {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))()
    end
 })
+AddButton(Tab1o, {
+    Name = "Rubu Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/RubuRoblox/refs/heads/main/RubuBF"))()
+   end
+})
+AddButton(Tab1o, {
+    Name = "Fix lag Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+   end
+})
+AddButton(Tab1o, {
+    Name = "Xeter Hub",
+    Callback = function()
+getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs/heads/main/Main.lua"))()
+   end
+})
+AddButton(Tab1o, {
+    Name = "Hiru Hub",
+    Callback = function()
+getgenv().Settings = {
+    JoinTeam = true,
+    Team = "Marines"-- Pirates or Marines
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KiddoHiru/BloxFruits/main/Source.lua"))()
+AddButton(Tab1o, {
+    Name = "Gavity Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
+   end
+})
+AddButton(Tab1o, {
+    Name = "Ko biet Hub",
+    Callback = function()
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer loadstring(game:HttpGet("https://raw.githubusercontent.com/shinichi-dz/phucshinsayhi/refs/heads/main/Loader.lua"))()
+   end
+})
